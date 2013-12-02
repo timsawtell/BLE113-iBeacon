@@ -42,11 +42,11 @@ event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
  
   # Major : 00
   advdata(25:1) = $00
-  advdata(26:1) = $00
+  advdata(26:1) = $01
  
   # Minor : 00 00
   advdata(27:1) = $00
-  advdata(28:1) = $00
+  advdata(28:1) = $03
  
   # Measured TX power : -58
   advdata(29:1) = $c6 
